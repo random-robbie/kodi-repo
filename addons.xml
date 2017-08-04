@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.randomrobbies" name="Random Robbie Addon Repository" version="1.0.1" provider-name="Rob">
+	<extension point="xbmc.addon.repository" name="Random Robbie Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/random-robbie/kodi-repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/random-robbie/kodi-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/random-robbie/kodi-repo/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from @random_robbie</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.newkidstv"
+	name="New Kids Tv"
+	version="1.3"
+	provider-name="@random_robbie">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Baby and Kids TV Shows</summary>
+    <description lang="en">Plenty Of Kids TV Shows they will all love! by @random_robbie</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.motornutz"
+	name="Motornutz"
+	version="1.1"
+	provider-name="@random_robbie">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Motor Nutz - For the petrol heads</summary>
+    <description lang="en">The Need for Speed by @random_robbie</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.colinfurze"
+	name="Colin Furze"
+	version="1.0.2"
+	provider-name="@random_robbie">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Colin Furze Crazy Inventions</summary>
+    <description lang="en">Discover the crazy world of Colin Furze. by @random_robbie</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+</addons>

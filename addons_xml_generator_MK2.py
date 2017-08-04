@@ -85,7 +85,7 @@ class Generator:
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u("\n</addons>\n")
         # save file
-        self._save_file( addons_xml.encode( "UTF-8" ), file="./zips/addons.xml" )
+        self._save_file( addons_xml.encode( "UTF-8" ), file="addons.xml" )
  
     def _generate_md5_file( self ):
         # create a new md5 hash
@@ -98,7 +98,7 @@ class Generator:
  
         # save file
         try:
-            self._save_file( m.encode( "UTF-8" ), file="./zips/addons.xml.md5" )
+            self._save_file( m.encode( "UTF-8" ), file="addons.xml.md5" )
         except Exception as e:
             # oops
             print("An error occurred creating addons.xml.md5 file!\n%s" % e)
